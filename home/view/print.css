@@ -1,0 +1,6 @@
+* 				{ background-color: #fff !important; color: #000 !important; overflow: visible !important; width: auto !important; }
+#globar, #toolbar, #support,
+#footer .gotop	{ display: none; }
+#main, #footer 	{ display: block !important; }
+
+#footer .copyright	{ padding-right: 10px !important; }

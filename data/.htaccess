@@ -1,0 +1,14 @@
+<FilesMatch ".*">
+	Order Allow,Deny
+	Deny from all
+</FilesMatch>
+
+<FilesMatch "\.(bmp|gif|jpg|jpeg|png|swf)$">
+	Order Allow,Deny
+	Allow from all
+</FilesMatch>
+
+<FilesMatch "^content\.[a-zA-Z-]{2,}\.xml$">
+	Order Allow,Deny
+	Allow from all
+</FilesMatch>
